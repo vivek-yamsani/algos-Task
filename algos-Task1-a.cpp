@@ -87,6 +87,8 @@ int main()
     cin >> n >> s;
 
     auto p = ans(s);
+    // Time Complexity as far as I know is O(n)
+    // as we are traveresing whole str in worst case
     if (p.first == "-1")
     {
         cout << "-1";
