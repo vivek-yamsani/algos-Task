@@ -94,8 +94,10 @@ int main()
         cout << "-1";
     }
     else
-    {
-        cout << p.first << " " << p.second;
+    {   if(p.first[0]=='0' || p.second[0]=='0')
+            cout<<"-1";    
+        else
+            cout << p.first << " " << p.second;
     }
 
     return 0;
